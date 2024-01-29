@@ -61,7 +61,7 @@ export const Form = ({ toggleForm })=>{
               
             //   POST REQUEST FROM EMAILJS 
               
-            emailJS.sendForm('service_3yns181', 'template_ik74n2q', form.current, 'CVAxaHkc1gQAcY-3i')
+            emailJS.sendForm('service_o80hmwd', 'template_dn969sb', form.current, '_P909NFb_RdL8lnqi')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
