@@ -7,9 +7,11 @@ import WeTransfer from './App';
 // import Logs from './Logs';
 
 const root = ReactDOM.createRoot(document.getElementById('sample_we_transsfer_view_'));
-root.render(
+root.render(  
   <React.StrictMode>
-    <WeTransfer />
+    <div>
+      <div>exp</div>
+  </div>
   </React.StrictMode>
 );
 reportWebVitals();
